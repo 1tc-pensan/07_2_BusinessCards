@@ -13,5 +13,20 @@ class Person
         $this->email=$email;
         $this->phone=$phone;
     }
+    //accessor:getter,setter
+    public function getEmail():string
+    {
+        return $this->email;
+    }
+    //getter
+    public function getPhone():string
+    {
+        return $this->phone;
+    }
+    //setter
+        public function setPhone(string $phone):void
+    {
+        $this->phone=$phone;
+    }
 }
 ?>
