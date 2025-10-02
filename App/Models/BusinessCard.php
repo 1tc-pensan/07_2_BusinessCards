@@ -3,7 +3,7 @@ namespace App\Models;
 use App\Models\Person;
 class BusinessCard extends Person
 {
- public string $company;
+public string $company;
 
     public function __construct(?$id,string $name,string $email,string $phone,$string $company)
     {
